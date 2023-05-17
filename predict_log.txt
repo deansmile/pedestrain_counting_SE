@@ -1,0 +1,11 @@
+Namespace(weights=['yolov7/weights/yolov7-e6e.pt'], source='images', img_size=640, conf_thres=0.25, iou_thres=0.45, device='', view_img=False, save_txt=True, save_conf=False, nosave=False, classes=[0], agnostic_nms=False, augment=False, update=False, project='out', name='exp', exist_ok=False, no_trace=False)
+Fusing layers... 
+ Convert model to Traced-model... 
+ traced_script_module saved! 
+ model is traced! 
+
+2 persons, Done. (1700.2ms) Inference, (2.0ms) NMS
+ The image with the result is saved in: out\exp2\image1.jpg
+2 persons, Done. (1170.3ms) Inference, (1.0ms) NMS
+ The image with the result is saved in: out\exp2\people.jpg
+Done. (2.920s)
